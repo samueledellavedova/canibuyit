@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-  double bal = 0;
+  double bal;
 
   printf("Sir, what's your balance? ");
   scanf("%lf", &bal);
@@ -11,7 +11,7 @@ int main() {
     return 0;
   }
 
-  double price = 0;
+  double price;
 
   printf("Now tell me, how much does the thing you want to buy cost? ");
   scanf("%lf", &price);

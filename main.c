@@ -21,11 +21,10 @@ int main() {
     return 0;
   }
 
-  if (price <= bal / 10) {
+  if (price <= bal / 10)
     printf("Yeah, i think you can afford it.\n");
-  } else {
+  else
     printf("Nope, you can't afford it.\n");
-  }
 
   return 0;
 }
